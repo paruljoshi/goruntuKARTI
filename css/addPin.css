@@ -1,0 +1,88 @@
+@font-face {
+    font-family: goruntuFont;
+    src: url(Arial_Rounded_Bold.ttf);
+}
+
+body{
+	padding:0px;
+	margin:0px;
+	font-family: goruntuFont;
+	font-size: 17px;
+	text-align: center;
+    background-color: black;
+}
+
+body.URL{
+	background-color: red;
+}
+
+body.computer{
+	background-color: yellow;
+}
+
+input[type="text"]:focus{
+    outline: none;
+    background: #fff; /* Fallback color for non-css3 browsers */
+
+    /* Gradients */
+    background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(255,255,255)), color-stop(1, rgb(235,235,235)));
+    background: -moz-linear-gradient( center top, rgb(255,255,255) 0%, rgb(235,235,235) 100%);
+}
+
+input[type="submit"] {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+
+input[type="submit"]:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+
+.left {
+	height: 70px;
+	width: 92px;
+	background-color: red;
+	float: left;
+	padding-top: 25px;
+}
+
+.right {
+	height: 70px;
+	width: 92px;
+	background-color: yellow;
+	float: left;
+	padding-top: 25px;
+}
+
+a {
+	color: black;
+}
+
+#addURL {
+	padding-top: 30px;
+}
+
+#textbox{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+}

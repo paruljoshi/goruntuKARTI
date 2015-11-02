@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="./css/pinboards.css" type="text/css" />
+	<title>goruntuKarti</title>
+</head>
+<body>
+	<div class="pageContainer">
+		<div class="header">
+			<div class ="leftHeader">
+				goruntu<i>Karti</i>
+			</div>
+			<div class="rightHeader">
+				<form action="index.php" method="post">
+                    <div class="username">
+					   <h1>Welcome</h1>
+				    </div>
+				    <div class="password">
+                        <h1></h1>
+                    <br>
+				    </div>
+				    <div class="login">
+                    <br>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Task&#9660;</a>
+                                <ul>
+                                    <li><a href="#">Pinboard</a></li>
+                                    <li><a href="#">Add Friend!</a></li>
+                                    <li><a href="index.php">LogOut</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+				</div>
+                </form>
+			</div>
+		</div>
+
+        <div class ="home">
+            <div class="searchBar">
+                <form id="search-form" action="searchTag.php">
+                    <input type="text" name="tag" />
+                    <input type="submit" value="search" name="search"/>
+
+                </form>
+            </div>
+            <div id = "pinboards">
+                <div class = "icon first">
+                    <a href="#">Create Pinboard</a>
+                </div>
+                <div class = "icon">
+                    <a href="pinboard1.html">
+                    <div class="top">
+                        Trains
+                    </div>
+                    <div class="middle">
+                        <img src="./images/train.jpg" height="250" width="200" />
+                    </div>
+                    </a>
+                    <div class="bottom">
+                        <a href="#">Edit</a>    
+                    </div>
+                </div>
+                <div class = "icon">
+                    <a href="pinboard2.html">
+                    <div class="top">
+                        Buses
+                    </div>
+                    <div class="middle">
+                        <img src="./images/bus.jpg" height="250" width="200">
+                    </div>
+                    </a>
+                    <div class="bottom">
+                        <a href="#">Edit</a>
+                    </div>
+                </div>
+            </div>
+            <div id = "statistics">
+                <div class = "box">
+                    <div class= "left">
+                        Boards
+                    </div>
+                    <div class= "right">
+                        2
+                    </div>
+                </div>
+                <div class = "box">
+                    <div class= "left">
+                        Pins
+                    </div>
+                    <div class= "right">
+                        41
+                    </div>
+                </div>
+                <div class = "box">
+                    <div class= "left">
+                        Likes
+                    </div>
+                    <div class= "right">
+                        33
+                    </div>
+                </div>
+                <div class = "box">
+                    <div class= "left">
+                        Followers
+                    </div>
+                    <div class= "right">
+                        8
+                    </div>
+                </div>
+                <div class = "lastBox">
+                    <div class= "left">
+                        Following
+                    </div>
+                    <div class= "right">
+                        6
+                    </div>
+                </div>
+            </div>
+		</div>		
+	</div>
+</body>
+</html>
